@@ -37,6 +37,7 @@ export const StoreModal = () => {
       // window.location.assign(`/${res.data.id}`);
       console.log(res.data);
       toast.success("Berhasil membuat toko.");
+      window.location.assign(`/${res.data.id}`);
     } catch (error) {
       toast.error("Gagal membuat toko!");
     } finally {

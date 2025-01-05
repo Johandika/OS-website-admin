@@ -44,8 +44,7 @@ export default function RootLayout({
             <SignIn routing="hash" />
           </SignedOut>
           <SignedIn>
-            <UserButton />
-            <div>You are signed in</div>
+            {/* <UserButton /> */}
             {children}
           </SignedIn>
         </body>
